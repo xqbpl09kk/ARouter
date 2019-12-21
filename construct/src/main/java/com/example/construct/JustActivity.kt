@@ -1,12 +1,11 @@
-package com.example.myapplication
+package com.example.construct
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.alibaba.android.arouter.facade.annotation.Route
-import com.example.construct.RouterPathDef
 
-@Route(path = RouterPathDef.GROUP_ONE + RouterPathDef.PATH_SUB)
-class SubActivity : AppCompatActivity() {
+@Route(path = RouterPathDef.GROUP_MAIN  + RouterPathDef.PATH_JUST)
+class JustActivity :AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -12,7 +12,7 @@ open class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         textView.setOnClickListener {
-            ARouterManager.route(RouterPathDef.PATH_DETAIL)
+            ARouterManager.route(RouterPathDef.PATH_JUST)
         }
 
     }

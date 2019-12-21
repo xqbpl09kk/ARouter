@@ -9,4 +9,5 @@ public interface RouterPathDef {
     String PATH_MAIN = "/main" ;
     String PATH_SUB = "/sub" ;
     String PATH_DETAIL = "/detail" ;
+    String PATH_JUST = "/just" ;
 }

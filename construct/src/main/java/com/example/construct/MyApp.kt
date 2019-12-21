@@ -12,6 +12,7 @@ abstract class MyApp : Application(){
     override fun onCreate() {
         super.onCreate()
         INSTANCE = this
+        appCxt = this
         initARouter()
     }
 
