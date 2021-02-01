@@ -25,5 +25,6 @@ public class DetailActivity extends AppCompatActivity {
         });
 
         android.widget.Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
     }
 }
