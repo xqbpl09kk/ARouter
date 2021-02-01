@@ -23,5 +23,7 @@ public class DetailActivity extends AppCompatActivity {
                 ARouterManager.INSTANCE.route(RouterPathDef.PATH_SUB , null);
             }
         });
+
+        android.widget.Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
     }
 }
